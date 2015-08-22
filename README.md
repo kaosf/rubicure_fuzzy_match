@@ -1,5 +1,10 @@
 # RubicureFuzzyMatch
 
+[![Gem Version](https://badge.fury.io/rb/rubicure_fuzzy_match.svg)](http://badge.fury.io/rb/rubicure_fuzzy_match)
+[![Dependency Status](https://gemnasium.com/kaosf/rubicure_fuzzy_match.svg)](https://gemnasium.com/kaosf/rubicure_fuzzy_match)
+[![Build Status](https://travis-ci.org/kaosf/rubicure_fuzzy_match.svg)](https://travis-ci.org/kaosf/rubicure_fuzzy_match)
+[![Code Climate](https://codeclimate.com/github/kaosf/rubicure_fuzzy_match/badges/gpa.svg)](https://codeclimate.com/github/kaosf/rubicure_fuzzy_match)
+
 ```ruby
 Rubicure::Seriese.regularize 'S☆S' #=> "ふたりはプリキュア Splash☆Star"
 ```
