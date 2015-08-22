@@ -19,6 +19,7 @@ class Rubicure::Seriese
   TITLES_DICTIONARY.merge! FUZZY_TITLES_DICTIONARY
 
   def self.regularize(title)
-    TITLES[TITLES_DICTIONARY[FUZZY_MATCHER.find title]]
+    s = FUZZY_MATCHER.find title
+    s ? TITLES[TITLES_DICTIONARY[s]] : nil
   end
 end
