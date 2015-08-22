@@ -8,7 +8,6 @@ class Rubicure::Seriese
   FUZZY_TITLES_DICTIONARY = {
     '初代'                           => 0,
     '無印'                           => 0,
-    'ふたりはプリキュア Splash☆Star' => 2,
     '555'                            => 4,
     'フレプリ'                       => 5,
     'ハト'                           => 6,
