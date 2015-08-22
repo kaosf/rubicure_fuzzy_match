@@ -29,4 +29,8 @@ class TestRubicureFuzzyMatch < Test::Unit::TestCase
   test '.regularize' do |data|
     assert_equal data[1], Rubicure::Seriese.regularize(data[0])
   end
+
+  test '.regularize invalid case' do
+    assert_nil Rubicure::Seriese.regularize('足タコナンジャ')
+  end
 end
