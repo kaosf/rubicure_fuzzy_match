@@ -39,7 +39,17 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rubicure_fuzzy_match.
+Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/rubicure_fuzzy_match.
+
+## References
+
+- [Fuzzy match in Ruby [Brighter Planet's Safety in Numbers]](http://numbers.brighterplanet.com/2012/01/18/fuzzy-match-in-ruby/)
+- [seamusabshere/fuzzy_match](https://github.com/seamusabshere/fuzzy_match)
+- [Ruby - Test::Unitでテストを書く - Qiita](http://qiita.com/repeatedly/items/727b08599d87af7fa671)
+
+## Slide
+
+[Rubicureをあいまい検索対応強化してみた](http://kaosf.github.io/rubicure-fuzzy-match-slide)
 
 ## License
 
