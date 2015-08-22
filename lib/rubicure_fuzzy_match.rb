@@ -22,4 +22,8 @@ class Rubicure::Seriese
     s = FUZZY_MATCHER.find title
     s ? TITLES[TITLES_DICTIONARY[s]] : nil
   end
+
+  def self.fuzzy_find(title)
+    Precure.select { |e| e.title == regularize(title) }.first
+  end
 end
