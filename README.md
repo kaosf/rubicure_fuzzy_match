@@ -1,8 +1,14 @@
 # RubicureFuzzyMatch
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubicure_fuzzy_match`. To experiment with that code, run `bin/console` for an interactive prompt.
+```ruby
+Rubicure::Seriese.regularize 'S☆S' #=> "ふたりはプリキュア Splash☆Star"
+```
 
-TODO: Delete this and the text above, and describe your gem
+```ruby
+x = Rubicure::Seriese.fuzzy_find 'S☆S'
+x.title #=> "ふたりはプリキュア Splash☆Star"
+x.class #=> Rubicure::Seriese
+```
 
 ## Installation
 
@@ -19,10 +25,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install rubicure_fuzzy_match
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
