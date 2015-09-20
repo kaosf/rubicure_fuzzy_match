@@ -34,8 +34,8 @@ class TestRubicureFuzzyMatch < Test::Unit::TestCase
     "ゴプリ"             => ["ゴプリ"            , "Go!プリンセスプリキュア"       ],
     "ゴプリプリ"         => ["ゴプリプリ"        , "Go!プリンセスプリキュア"       ],
     "姫プリ"             => ["姫プリ"            , "Go!プリンセスプリキュア"       ])
-  test '.regularize' do |data|
-    assert_equal data[1], Rubicure::Seriese.regularize(data[0])
+  test '.regularize' do |(input, expected)|
+    assert_equal expected, Rubicure::Seriese.regularize(input)
   end
 
   test '.regularize invalid case' do
@@ -55,7 +55,7 @@ class TestRubicureFuzzyMatch < Test::Unit::TestCase
     "ドキ"        => ["ドキ"       , Precure.dokidoki        ],
     "ハピチャ"    => ["ハピチャ"   , Precure.happiness_charge],
     "Goプリ"      => ["Goプリ"     , Precure.go_princess     ])
-  test '.fuzzy_find' do |data|
-    assert_equal data[1], Rubicure::Seriese.fuzzy_find(data[0])
+  test '.fuzzy_find' do |(input, expected)|
+    assert_equal expected, Rubicure::Seriese.fuzzy_find(input)
   end
 end
