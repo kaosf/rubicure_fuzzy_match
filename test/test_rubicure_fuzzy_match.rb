@@ -33,7 +33,8 @@ class TestRubicureFuzzyMatch < Test::Unit::TestCase
     "Goプリ"             => ["Goプリ"            , "Go!プリンセスプリキュア"       ],
     "ゴプリ"             => ["ゴプリ"            , "Go!プリンセスプリキュア"       ],
     "ゴプリプリ"         => ["ゴプリプリ"        , "Go!プリンセスプリキュア"       ],
-    "姫プリ"             => ["姫プリ"            , "Go!プリンセスプリキュア"       ])
+    "姫プリ"             => ["姫プリ"            , "Go!プリンセスプリキュア"       ],
+    "魔法つかい"         => ["魔法つかい"        , "魔法つかいプリキュア！"        ])
   test '.regularize' do |(input, expected)|
     assert_equal expected, Rubicure::Seriese.regularize(input)
   end
