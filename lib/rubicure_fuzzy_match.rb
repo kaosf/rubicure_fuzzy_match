@@ -21,7 +21,7 @@ class Rubicure::Seriese
     'ハチャプリ'         => 10,
     'ゴプリプリ'         => 11,
     '姫プリ'             => 11,
-    'まほうつかい'       => 12,
+    'まほ'               => 12,
   }
   FUZZY_MATCHER = FuzzyMatch.new(TITLES + FUZZY_TITLES_DICTIONARY.keys)
   TITLES_DICTIONARY.merge! FUZZY_TITLES_DICTIONARY
