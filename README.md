@@ -3,6 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/rubicure_fuzzy_match.svg)](http://badge.fury.io/rb/rubicure_fuzzy_match)
 [![Dependency Status](https://gemnasium.com/kaosf/rubicure_fuzzy_match.svg)](https://gemnasium.com/kaosf/rubicure_fuzzy_match)
 [![Build Status](https://travis-ci.org/kaosf/rubicure_fuzzy_match.svg)](https://travis-ci.org/kaosf/rubicure_fuzzy_match)
+[![Coverage Status](https://coveralls.io/repos/github/kaosf/rubicure_fuzzy_match/badge.svg?branch=master)](https://coveralls.io/github/kaosf/rubicure_fuzzy_match?branch=master)
 [![Code Climate](https://codeclimate.com/github/kaosf/rubicure_fuzzy_match/badges/gpa.svg)](https://codeclimate.com/github/kaosf/rubicure_fuzzy_match)
 
 ```ruby
