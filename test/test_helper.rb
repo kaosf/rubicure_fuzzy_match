@@ -5,9 +5,7 @@ require 'test/unit'
 Coveralls.wear!
 if ENV['CI'] != 'true'
   SimpleCov.formatter = SimpleCov::Formatter::HTMLFormatter
-  SimpleCov.start do
-    add_filter '/test/'
-  end
+  SimpleCov.start
 end
 
 # require order ref.
@@ -15,5 +13,3 @@ end
 # ENV['CI'] != 'true" ref.
 #   http://stackoverflow.com/questions/12983137/how-do-detect-if-travis-ci-or-not
 #   http://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
-# add_filter '/test/' ref.
-#   https://github.com/colszowka/simplecov#string-filter
