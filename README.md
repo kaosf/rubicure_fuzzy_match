@@ -42,6 +42,10 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/rubicure_fuzzy_match.
 
+## TODO
+
+- [ ] Reject the coverage target of `test/*`
+
 ## References
 
 - [Fuzzy match in Ruby [Brighter Planet's Safety in Numbers]](http://numbers.brighterplanet.com/2012/01/18/fuzzy-match-in-ruby/)
