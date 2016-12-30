@@ -1,4 +1,4 @@
-require 'test/unit'
+require 'test_helper'
 require 'rubicure_fuzzy_match'
 
 class TestRubicureFuzzyMatch < Test::Unit::TestCase
