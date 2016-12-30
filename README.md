@@ -51,6 +51,10 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/
 - [Fuzzy match in Ruby [Brighter Planet's Safety in Numbers]](http://numbers.brighterplanet.com/2012/01/18/fuzzy-match-in-ruby/)
 - [seamusabshere/fuzzy_match](https://github.com/seamusabshere/fuzzy_match)
 - [Ruby - Test::Unitでテストを書く - Qiita](http://qiita.com/repeatedly/items/727b08599d87af7fa671)
+- ["require" order in test_helper.rb](http://qiita.com/bsdmad/items/ab8b7d92d965df8bb2d8)
+- environment variable on Travis CI
+  - http://stackoverflow.com/questions/12983137/how-do-detect-if-travis-ci-or-not
+  - http://docs.travis-ci.com/user/environment-variables/#Default-Environment-Variables
 
 ## Slide
 
