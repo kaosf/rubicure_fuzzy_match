@@ -64,4 +64,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/kaosf/
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Copyright (C) 2015 ka
+Copyright (C) 2015-2017 ka
